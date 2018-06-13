@@ -29,7 +29,7 @@ public class WaveForm {
 	public static void waveForm(int [] arr)
 	{
 		
-		sortArray(arr);
+		sortArray(arr); // first sorting the array
 		
 		int i=0,temp;
 		
