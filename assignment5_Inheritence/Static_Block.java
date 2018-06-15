@@ -4,7 +4,7 @@ public class Static_Block {
 	
 	static float num1;
 	static int num2;
-	int num3;
+	
 	
 	static {// Static block are use to initialization of static variable
 		

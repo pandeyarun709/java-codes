@@ -17,10 +17,13 @@ public class RemoveVowel {
 			}
 		
 			
-		//	 s = str.replaceAll("[aeiouAEIOU]", "");    ///we can also use replace method----  [aeiouAEIOU] - array of character
+		
 			
 			
 		}	
+		
+		// Note :-
+//		 s = str.replaceAll("[aeiouAEIOU]", "");    ///we can also use replace method----  [aeiouAEIOU] - array of character
 			
 		
 		
