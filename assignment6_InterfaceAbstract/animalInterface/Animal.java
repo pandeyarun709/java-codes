@@ -1,6 +1,6 @@
 package assignment6_InterfaceAbstract.animalInterface;
 
-public interface Animal {
+ interface Animal {
 
 	void speak();
 	void eat();
