@@ -74,10 +74,17 @@ public class DynamicArray {
 	
 	void display()
 	{
-		for(int i=0; i < s;i++)
-		{
-			System.out.print(arr[i] + " ");
+		
+			if(s > 0)
+			{
+				for(int i=0; i < s;i++)
+				{
+				
+					System.out.print(arr[i] + " ");
+				
+			   }
 		}
+		else System.out.println("List is empty !!");
 		System.out.println();
 	}
 	
@@ -87,9 +94,13 @@ public class DynamicArray {
 		
 		try {
 			
+			if(s!=0)
+			{
+				System.out.println("At index  " + idx + " value is  " + arr[idx]);
+			}
+			else System.out.println("List is empty!!");
 			
 			
-			System.out.println("At index  " + idx + " value is  " + arr[idx]);
 			
 		}
 		catch(Exception e)
