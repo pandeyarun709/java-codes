@@ -307,7 +307,7 @@ public class DynamicArray {
 					break;
 				}
 	    		
-			    case 6 : // Remove value from that index
+			    case 6 : // Remove value from last index
 	    		{
 					a.remove();
 					
