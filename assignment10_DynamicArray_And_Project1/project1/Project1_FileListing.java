@@ -121,8 +121,8 @@ public class Project1_FileListing {
 		
 		for(File f : fileList)
 		{
-			w.write(f.getName()+","+f.getAbsolutePath());
-			w.append(System.lineSeparator());
+			w.write(f.getName() + " , " + f.getAbsolutePath() + "\n");
+			//w.append(System.lineSeparator());
 		}
 		
 		
