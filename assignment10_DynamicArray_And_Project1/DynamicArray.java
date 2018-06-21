@@ -59,7 +59,7 @@ public class DynamicArray {
 			news[i] = arr[i];
 		}
 		
-		size = size *2 ;
+		size = (int)(size * 1.5) ;
 		
 		arr = new int[size] ;
 		
