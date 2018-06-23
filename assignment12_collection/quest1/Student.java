@@ -17,7 +17,6 @@ package assignment12_collection.quest1;
 	        this.roll = roll;
 	    }
 	 
-	    // Getter methods for accessing private data
 	 
 	    public String getName()   {  return name; }
 	    public int rollNumber()      {  return roll;  }
